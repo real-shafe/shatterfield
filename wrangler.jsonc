@@ -1,0 +1,9 @@
+// Static-files Worker: serves public/ at shatterfield.shafe.dev
+{
+  "name": "shatterfield",
+  "compatibility_date": "2025-07-15",
+  "assets": { "directory": "./public" },
+  "routes": [
+    { "pattern": "shatterfield.shafe.dev", "custom_domain": true }
+  ]
+}
